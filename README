@@ -1,0 +1,18 @@
+# lein-fig
+
+          Get fig dependencies with your maven dependencies.
+
+## Usage
+
+            $ lein deps
+
+            lein-fig uses Robert Hooke to hook `deps` and install your
+            fig dependencies alongside.
+
+## Installation
+
+            Add [lein-fig "1.0.0"] to your project's :dev-dependencies.
+
+## License
+
+            Licensed under the EPL; the same license as Clojure.
