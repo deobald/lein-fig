@@ -13,6 +13,11 @@
 
             Add [lein-fig "1.0.0"] to your project's :dev-dependencies.
 
+            Add the following two lines to your project.clj:
+
+              :disable-implicit-clean true
+              :hooks [leiningen.fig]
+
 ## License
 
             Licensed under the EPL; the same license as Clojure.
