@@ -11,10 +11,14 @@
 
 ## Installation
 
-            Add [lein-fig "1.0.0"] to your project's :dev-dependencies.
+        Method 1 (good):
+            $ lein plugin install lein-fig 1.0.3
+            Add the following line to your project.clj:
+              :hooks [leiningen.fig]
 
+        Method 2 (bad):
+            Add [lein-fig "1.0.3"] to your project's :dev-dependencies.
             Add the following two lines to your project.clj:
-
               :disable-implicit-clean true
               :hooks [leiningen.fig]
 
