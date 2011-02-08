@@ -3,7 +3,7 @@
           [leiningen.deps :only [deps]]
           [robert.hooke]))
 
-(defn fig [project]
+(defn fig [project & args]
   (exec { :command (org.apache.tools.ant.types.Commandline. "fig -u")}))
 
 (defn fig-hook [task & args]

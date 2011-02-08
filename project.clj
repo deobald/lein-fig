@@ -1,4 +1,4 @@
-(defproject lein-fig/lein-fig "1.0.1"
+(defproject lein-fig/lein-fig "1.0.2"
   :description "Collect fig dependencies alongside your maven dependencies."
   
   :eval-in-leiningen true
