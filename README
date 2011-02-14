@@ -1,6 +1,11 @@
 # lein-fig
 
-          Get fig dependencies with your maven dependencies.
+            Get fig dependencies with your maven dependencies.
+
+ ## Hacking
+ 
+            To publish:
+            $ lein pom && lein jar && lein push
 
 ## Usage
 
