@@ -1,5 +1,5 @@
 (ns leiningen.fig "fig"
-    (:use [lancet :only [mkdir copy fileset chmod exec]]
+    (:use [lancet.core :only [mkdir copy fileset chmod exec]]
           [leiningen.deps :only [deps]]
           [robert.hooke]))
 
